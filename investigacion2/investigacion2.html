@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--Siguiendo est ejemplo, crea ua aplicación con un texto rojo y que al clicar el botón se ponga verde y así alternativamente-->
+  <title>Investigación</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="script/funciones3.js"></script>
+  <style>
+  .verde{
+  color: green;
+
+  }
+  .rojo{
+  color: red;  
+
+ 
+  }
+  
+  .btn{
+    border: 1px solid #4D4D4D;
+    background: #4D4D4D;
+    color: #FD971F;
+  }
+
+  </style>
+</head>
+<body>
+<p id="parrafo_lorem" class="rojo">Lorem ipsum--</p>
+<button onclick="cambiarEstado();" class="btn">Cambiar estado</button>
+</body>
+</html>
